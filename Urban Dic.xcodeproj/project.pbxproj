@@ -7,15 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84434D6B1C55D96300B4BD56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AC86B91C559DEF0004B808 /* Assets.xcassets */; };
+		848F4DBB1C55C1F1001C3D90 /* DefinitionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4DBA1C55C1F1001C3D90 /* DefinitionTableViewCell.swift */; };
 		84AC86B01C559DEF0004B808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC86AF1C559DEF0004B808 /* AppDelegate.swift */; };
 		84AC86B21C559DEF0004B808 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC86B11C559DEF0004B808 /* ViewController.swift */; };
 		84AC86B51C559DEF0004B808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AC86B31C559DEF0004B808 /* Main.storyboard */; };
 		84AC86B81C559DEF0004B808 /* Urban_Dic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84AC86B61C559DEF0004B808 /* Urban_Dic.xcdatamodeld */; };
-		84AC86BA1C559DEF0004B808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AC86B91C559DEF0004B808 /* Assets.xcassets */; };
 		84AC86BD1C559DEF0004B808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AC86BB1C559DEF0004B808 /* LaunchScreen.storyboard */; };
+		84AC86C51C559E6F0004B808 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC86C41C559E6F0004B808 /* DataManager.swift */; };
+		84AC86C71C559FB10004B808 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC86C61C559FB10004B808 /* TableViewController.swift */; };
+		84AC86C91C55AE6E0004B808 /* SoundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AC86C81C55AE6E0004B808 /* SoundTableViewCell.swift */; };
+		84E6CC061C55D5140026DCC8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6CC051C55D5140026DCC8 /* NotificationCenter.framework */; };
+		84E6CC091C55D5140026DCC8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6CC081C55D5140026DCC8 /* TodayViewController.swift */; };
+		84E6CC0C1C55D5140026DCC8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E6CC0A1C55D5140026DCC8 /* MainInterface.storyboard */; };
+		84E6CC101C55D5150026DCC8 /* Urban Dic Wedgit.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 84E6CC031C55D5140026DCC8 /* Urban Dic Wedgit.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84E6CC151C55D7150026DCC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AC86B91C559DEF0004B808 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		84E6CC0E1C55D5150026DCC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AC86A41C559DEE0004B808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E6CC021C55D5140026DCC8;
+			remoteInfo = "Urban Dic Wedgit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84E6CC141C55D5150026DCC8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84E6CC101C55D5150026DCC8 /* Urban Dic Wedgit.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		848F4DBA1C55C1F1001C3D90 /* DefinitionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionTableViewCell.swift; sourceTree = "<group>"; };
 		84AC86AC1C559DEF0004B808 /* Urban Dic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Urban Dic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AC86AF1C559DEF0004B808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84AC86B11C559DEF0004B808 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +58,14 @@
 		84AC86B91C559DEF0004B808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84AC86BC1C559DEF0004B808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84AC86BE1C559DEF0004B808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AC86C41C559E6F0004B808 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		84AC86C61C559FB10004B808 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		84AC86C81C55AE6E0004B808 /* SoundTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundTableViewCell.swift; sourceTree = "<group>"; };
+		84E6CC031C55D5140026DCC8 /* Urban Dic Wedgit.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Urban Dic Wedgit.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E6CC051C55D5140026DCC8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		84E6CC081C55D5140026DCC8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		84E6CC0B1C55D5140026DCC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		84E6CC0D1C55D5140026DCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +76,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84E6CC001C55D5140026DCC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E6CC061C55D5140026DCC8 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -41,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				84AC86AE1C559DEF0004B808 /* Urban Dic */,
+				84E6CC071C55D5140026DCC8 /* Urban Dic Wedgit */,
+				84E6CC041C55D5140026DCC8 /* Frameworks */,
 				84AC86AD1C559DEF0004B808 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				84AC86AC1C559DEF0004B808 /* Urban Dic.app */,
+				84E6CC031C55D5140026DCC8 /* Urban Dic Wedgit.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,8 +116,30 @@
 				84AC86BB1C559DEF0004B808 /* LaunchScreen.storyboard */,
 				84AC86BE1C559DEF0004B808 /* Info.plist */,
 				84AC86B61C559DEF0004B808 /* Urban_Dic.xcdatamodeld */,
+				84AC86C41C559E6F0004B808 /* DataManager.swift */,
+				84AC86C61C559FB10004B808 /* TableViewController.swift */,
+				84AC86C81C55AE6E0004B808 /* SoundTableViewCell.swift */,
+				848F4DBA1C55C1F1001C3D90 /* DefinitionTableViewCell.swift */,
 			);
 			path = "Urban Dic";
+			sourceTree = "<group>";
+		};
+		84E6CC041C55D5140026DCC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E6CC051C55D5140026DCC8 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E6CC071C55D5140026DCC8 /* Urban Dic Wedgit */ = {
+			isa = PBXGroup;
+			children = (
+				84E6CC081C55D5140026DCC8 /* TodayViewController.swift */,
+				84E6CC0A1C55D5140026DCC8 /* MainInterface.storyboard */,
+				84E6CC0D1C55D5140026DCC8 /* Info.plist */,
+			);
+			path = "Urban Dic Wedgit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +152,34 @@
 				84AC86A81C559DEF0004B808 /* Sources */,
 				84AC86A91C559DEF0004B808 /* Frameworks */,
 				84AC86AA1C559DEF0004B808 /* Resources */,
+				84E6CC141C55D5150026DCC8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				84E6CC0F1C55D5150026DCC8 /* PBXTargetDependency */,
 			);
 			name = "Urban Dic";
 			productName = "Urban Dic";
 			productReference = 84AC86AC1C559DEF0004B808 /* Urban Dic.app */;
 			productType = "com.apple.product-type.application";
+		};
+		84E6CC021C55D5140026DCC8 /* Urban Dic Wedgit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E6CC131C55D5150026DCC8 /* Build configuration list for PBXNativeTarget "Urban Dic Wedgit" */;
+			buildPhases = (
+				84E6CBFF1C55D5140026DCC8 /* Sources */,
+				84E6CC001C55D5140026DCC8 /* Frameworks */,
+				84E6CC011C55D5140026DCC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Urban Dic Wedgit";
+			productName = "Urban Dic Wedgit";
+			productReference = 84E6CC031C55D5140026DCC8 /* Urban Dic Wedgit.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -93,12 +187,15 @@
 		84AC86A41C559DEE0004B808 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Maimaitiming Abudukadier";
 				TargetAttributes = {
 					84AC86AB1C559DEF0004B808 = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					84E6CC021C55D5140026DCC8 = {
+						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
@@ -116,6 +213,7 @@
 			projectRoot = "";
 			targets = (
 				84AC86AB1C559DEF0004B808 /* Urban Dic */,
+				84E6CC021C55D5140026DCC8 /* Urban Dic Wedgit */,
 			);
 		};
 /* End PBXProject section */
@@ -126,8 +224,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AC86BD1C559DEF0004B808 /* LaunchScreen.storyboard in Resources */,
-				84AC86BA1C559DEF0004B808 /* Assets.xcassets in Resources */,
+				84434D6B1C55D96300B4BD56 /* Assets.xcassets in Resources */,
 				84AC86B51C559DEF0004B808 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E6CC011C55D5140026DCC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E6CC151C55D7150026DCC8 /* Assets.xcassets in Resources */,
+				84E6CC0C1C55D5140026DCC8 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,12 +246,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AC86B21C559DEF0004B808 /* ViewController.swift in Sources */,
+				848F4DBB1C55C1F1001C3D90 /* DefinitionTableViewCell.swift in Sources */,
+				84AC86C51C559E6F0004B808 /* DataManager.swift in Sources */,
 				84AC86B81C559DEF0004B808 /* Urban_Dic.xcdatamodeld in Sources */,
+				84AC86C71C559FB10004B808 /* TableViewController.swift in Sources */,
 				84AC86B01C559DEF0004B808 /* AppDelegate.swift in Sources */,
+				84AC86C91C55AE6E0004B808 /* SoundTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E6CBFF1C55D5140026DCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E6CC091C55D5140026DCC8 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E6CC0F1C55D5150026DCC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E6CC021C55D5140026DCC8 /* Urban Dic Wedgit */;
+			targetProxy = 84E6CC0E1C55D5150026DCC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		84AC86B31C559DEF0004B808 /* Main.storyboard */ = {
@@ -161,6 +288,14 @@
 				84AC86BC1C559DEF0004B808 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84E6CC0A1C55D5140026DCC8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E6CC0B1C55D5140026DCC8 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -253,6 +388,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Urban Dic/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "memtimen.Urban-Dic";
@@ -264,10 +401,38 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Urban Dic/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "memtimen.Urban-Dic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84E6CC111C55D5150026DCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Urban Dic Wedgit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "memtimen.Urban-Dic.Urban-Dic-Wedgit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84E6CC121C55D5150026DCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Urban Dic Wedgit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "memtimen.Urban-Dic.Urban-Dic-Wedgit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -290,6 +455,16 @@
 				84AC86C31C559DEF0004B808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E6CC131C55D5150026DCC8 /* Build configuration list for PBXNativeTarget "Urban Dic Wedgit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E6CC111C55D5150026DCC8 /* Debug */,
+				84E6CC121C55D5150026DCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

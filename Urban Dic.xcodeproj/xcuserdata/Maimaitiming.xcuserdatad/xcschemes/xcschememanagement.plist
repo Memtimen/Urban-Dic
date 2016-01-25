@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Urban Dic Wedgit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Urban Dic.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>84AC86AB1C559DEF0004B808</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84E6CC021C55D5140026DCC8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
