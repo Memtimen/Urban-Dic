@@ -10,7 +10,8 @@ import UIKit
 
 class DefinitionTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var labelDef: UILabel!
+//    @IBOutlet weak var labelDef: UILabel!
+    @IBOutlet weak var textViewDef: UITextView!
     @IBOutlet weak var labelDown: UILabel!
     @IBOutlet weak var labelUp: UILabel!
     @IBOutlet weak var labelAuthor: UILabel!

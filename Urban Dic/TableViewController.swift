@@ -81,7 +81,7 @@ class TableViewController: UITableViewController, UISearchBarDelegate {
         if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! DefinitionTableViewCell
             let def = dicData["list"]?[indexPath.row]["definition"] as? String
-            cell.labelDef.text = def
+            cell.textViewDef.text = def
             if let author = dicData["list"]?[indexPath.row]["author"] as? String {
                 cell.labelAuthor?.text = "By: " + author
             }else{
