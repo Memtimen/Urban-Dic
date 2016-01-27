@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10089" systemVersion="15E27e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NwA-uy-0QH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10089" systemVersion="15E33e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NwA-uy-0QH">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10072.1"/>
@@ -31,7 +31,8 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIZ-ae-ETB">
-                                            <rect key="frame" x="38" y="20" width="542" height="17"/>
+                                            <rect key="frame" x="38" y="18" width="542" height="19"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -85,7 +86,6 @@
                                         </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="GIZ-ae-ETB" firstAttribute="top" secondItem="gWu-hn-j4U" secondAttribute="top" constant="20" id="2Qf-pG-Yov"/>
                                         <constraint firstItem="GIZ-ae-ETB" firstAttribute="leading" secondItem="W7c-yp-ExR" secondAttribute="trailing" constant="8" id="Bj8-kQ-sgX"/>
                                         <constraint firstItem="mZD-Lu-19Q" firstAttribute="leading" secondItem="GIZ-ae-ETB" secondAttribute="leading" id="FCJ-Ci-Ubd"/>
                                         <constraint firstAttribute="trailing" secondItem="GIZ-ae-ETB" secondAttribute="trailing" constant="20" id="K6X-Da-WTL"/>
@@ -94,17 +94,17 @@
                                         <constraint firstItem="GOK-ub-JTp" firstAttribute="leading" secondItem="C41-xX-kWo" secondAttribute="trailing" constant="8" id="NGp-8N-1uj"/>
                                         <constraint firstItem="qri-S7-iVn" firstAttribute="centerY" secondItem="gVI-tN-vMT" secondAttribute="centerY" id="SPw-3D-qHe"/>
                                         <constraint firstItem="gVI-tN-vMT" firstAttribute="centerY" secondItem="GOK-ub-JTp" secondAttribute="centerY" id="SzV-U4-OOc"/>
-                                        <constraint firstItem="W7c-yp-ExR" firstAttribute="top" secondItem="gWu-hn-j4U" secondAttribute="top" constant="20" id="UAz-Ca-Cg4"/>
                                         <constraint firstItem="gVI-tN-vMT" firstAttribute="top" secondItem="GOK-ub-JTp" secondAttribute="top" id="VZl-3P-VeC"/>
+                                        <constraint firstItem="W7c-yp-ExR" firstAttribute="top" secondItem="gWu-hn-j4U" secondAttribute="top" constant="20" id="Vcq-3U-glt"/>
                                         <constraint firstItem="gVI-tN-vMT" firstAttribute="leading" secondItem="qri-S7-iVn" secondAttribute="trailing" constant="8" id="Wg6-6o-ysi"/>
                                         <constraint firstAttribute="bottom" secondItem="mZD-Lu-19Q" secondAttribute="bottom" constant="15" id="WuA-hd-2k1"/>
-                                        <constraint firstItem="GIZ-ae-ETB" firstAttribute="top" secondItem="W7c-yp-ExR" secondAttribute="top" id="at2-jp-1OP"/>
                                         <constraint firstItem="gVI-tN-vMT" firstAttribute="height" secondItem="GOK-ub-JTp" secondAttribute="height" id="cyx-gD-dCy"/>
                                         <constraint firstItem="C41-xX-kWo" firstAttribute="centerY" secondItem="GOK-ub-JTp" secondAttribute="centerY" id="hiu-iJ-GkQ"/>
                                         <constraint firstItem="GOK-ub-JTp" firstAttribute="centerY" secondItem="mZD-Lu-19Q" secondAttribute="centerY" id="ixd-Qo-oTI"/>
                                         <constraint firstItem="mZD-Lu-19Q" firstAttribute="top" secondItem="GIZ-ae-ETB" secondAttribute="bottom" constant="26" id="lhN-o8-UJv"/>
                                         <constraint firstAttribute="trailing" secondItem="GOK-ub-JTp" secondAttribute="trailing" constant="20" id="nkW-iF-8Tv"/>
                                         <constraint firstItem="C41-xX-kWo" firstAttribute="leading" secondItem="gVI-tN-vMT" secondAttribute="trailing" constant="20" id="oB9-Xz-2jF"/>
+                                        <constraint firstItem="GIZ-ae-ETB" firstAttribute="top" secondItem="W7c-yp-ExR" secondAttribute="top" constant="-2" id="pf4-It-fAy"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="tintColor" red="0.76078432799999995" green="0.77647060160000003" blue="0.8156862855" alpha="1" colorSpace="calibratedRGB"/>
